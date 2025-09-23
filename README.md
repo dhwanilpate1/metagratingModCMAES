@@ -49,8 +49,8 @@ If you use this repository in your research, please cite it as:
 
 ```bibtex
 @misc{patel2025_metagratingModCMAE,
-  author       = {Dhwanil Patel and Jacob de Nobel and Anna V. Kononova and Bernhard R. Brandl and Ralf Kohlhaas},
-  title        = {metagratingModCMAES: Design of efficient high-order immersed meta-gratings using an evolutionary algorithm},
+  author       = {Dhwanil Patel and Jacob de Nobel},
+  title        = {metagratingModCMAES},
   year         = {2025},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/dhwanilpate1/metagratingModCMAES}},
