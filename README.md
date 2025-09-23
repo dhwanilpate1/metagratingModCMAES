@@ -14,14 +14,14 @@ This project uses a modified Covariance Matrix Adaptation Evolution Strategy (mo
 
 | Directory / File | Description |
 |---|---|
-| `CMA_ES_run.ipynb` | Main notebook that runs the CMA-ES optimization. |
-| `baselineResults_SV_SWIR3/` | Contains baseline results for some test cases (“SV SWIR3”). |
-| `data_loc_CMAES/data_f1121_metagrating/` | Input data for metagrating configuration (geometry, materials, etc.). |
-| `simulation_files_lumerical/` | Simulation setup files for Lumerical software. |
+| `CMA_ES_run.ipynb` | Main notebook that ran the mod-CMA ES optimization. |
+| `baselineResults_SV_SWIR3/` | Contains baseline results from the Sentinel-5 SWIR-3 blazed grating. |
+| `data_loc_CMAES/data_f1121_metagrating/` | The logger that saved the evolution of the FOM and DOF for each iterations of the optimization. |
+| `simulation_files_lumerical/` | Lumerical files for each data point ran and saved with results. They are used to extract results. |
 | `cmaes_results.npz` | Stored results from the CMA-ES runs. |
-| `CMA_ES_run_result.txt` | Text-summary of the CMA-ES run. |
-| `cmaesbestPoint_analysis_plots.ipynb` | Notebook for analyzing and plotting the best candidate from CMA-ES. |
-| `finerMeshConfirm_cmaes_bestPoint.ipynb` | Notebook to verify the best solution with a finer mesh. |
+| `CMA_ES_run_result.txt` | Stored results from the CMA-ES runs. |
+| `cmaesbestPoint_analysis_plots.ipynb` | Notebook for analyzing and plotting the results from the best candidate from CMA-ES. |
+| `finerMeshConfirm_cmaes_bestPoint.ipynb` | Notebook to verify the best solution from the optimization run with a finer mesh. |
 | `man_tol_study.ipynb` | Notebook for studying the effect of tolerance parameter (“man tol” = manual tolerance) on performance. |
 | `sawtooth_grating_data_opRange.npz` | Data for sawtooth grating performance over a range of operating conditions. |
 | `visualization.fsp` | A Lumerical file for visualization of the best design. |
