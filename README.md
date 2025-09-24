@@ -49,7 +49,7 @@ If you use this repository in your research, please cite it as:
 
 ```bibtex
 @misc{patel2025_metagratingModCMAE,
-  author       = {Dhwanil Patel and Jacob de Nobel},
+  author       = {Dhwanil Patel, Jacob de Nobel, Ralf Kohlhaas},
   title        = {metagratingModCMAES},
   year         = {2025},
   publisher    = {GitHub},
