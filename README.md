@@ -20,20 +20,19 @@ This project uses a modified Covariance Matrix Adaptation Evolution Strategy (mo
 | `simulation_files_lumerical/` | Lumerical files for each data point ran and saved with results. They are used to extract results. |
 | `cmaes_results.npz` | Stored results from the CMA-ES runs. |
 | `CMA_ES_run_result.txt` | Stored results from the CMA-ES runs. |
-| `cmaesbestPoint_analysis_plots.ipynb` | Notebook for analyzing and plotting the results from the best candidate from CMA-ES. |
-| `finerMeshConfirm_cmaes_bestPoint.ipynb` | Notebook to verify the best solution from the optimization run with a finer mesh. |
-| `man_tol_study.ipynb` | Notebook for studying the effect of tolerance parameter (“man tol” = manual tolerance) on performance. |
+| `cmaesbestPoint_analysis_plots.ipynb` | For analyzing and plotting the results from the best candidate from CMA-ES. |
+| `finerMeshConfirm_cmaes_bestPoint.ipynb` | To verify the best solution from the optimization run with a finer mesh. |
+| `man_tol_study.ipynb` | For studying the effect of tolerance parameter (“man tol” = manual tolerance) on performance. |
 | `sawtooth_grating_data_opRange.npz` | Data for sawtooth grating performance over a range of operating conditions. |
-| `visualization.fsp` | A Lumerical file for visualization of the best design. |
+| `visualization.fsp` | Lumerical file for visualization of the best design. |
 
 ---
 
 ## Requirements / Dependencies
 
-- Python (version X.Y or higher)  
+- Python and Jupyter notebook environment  
 - Main Packages required: `numpy`, `scipy`, `matplotlib`, `modCMA` 
-- Lumerical simulation tools (if running `.fsp` files)  
-- Jupyter notebook environment  
+- Lumerical FDTD: 3D electromagnetic solver package (if want to run `.fsp` files)
 
 ---
 
